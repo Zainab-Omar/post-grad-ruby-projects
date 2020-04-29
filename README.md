@@ -1,10 +1,10 @@
 # Upgrade your Ruby CLI Project
 
 It has probably been a little while since you looked at your first portfolio
-project, the Ruby CLI app. Now is a good time to revisit it and read the code
-you've written. Since it was early on in your journey with Flatiron, it is
-you've likley improved your coding skills. Although this project may not be as
-visually appealing as other portfolio projects, with some upgrades and polish,
+project, the Ruby CLI app. Now is an excellent time to revisit it and read the
+code you've written. Since it was early on in your journey with Flatiron, it is
+you've likley improved your coding skills. This project may not be as visually
+appealing as other portfolio projects. With some upgrades and polish, however,
 it can still be a good example of what you can accomplish. Below are some
 suggestions for what you can do to upgrade your CLI project.
 
@@ -46,7 +46,7 @@ without them:
 Sometimes, once we've cleaned up our code, it becomes easier to spot unnecessary
 steps. In the example above, after removing the extra variables, it is clear
 that this method is just calling another method. We could possibly just remove
-`example_method` entirely, and instead just use `another_method` directly.
+`example_method` entirely, and instead, just use `another_method` directly.
 
 Another common mistake - stuffing too much into a single method. For readability
 and flexibility in our code, it is good to make sure methods are not overly
@@ -54,15 +54,15 @@ complicated. Methods should typically do one task. That task may be to compute a
 value or transform a piece of data. It may even be that a method exists purely
 to call a few other methods in a specific order. The fewer tasks a method
 completes, the easier it is to understand what it does. This also makes methods
-more useful. For instance, if you have a single method that both calculates
-_and_ transforms some data, by splitting up the tasks, you will have two
+more useful. For instance, say you have a single method that both calculates
+_and_ transforms some data. By splitting up the tasks, you will have two
 methods, one that calculates and one that transforms. Functionally, this won't
 change what the program does. However, now you have two methods that can be
-reused elsewhere individually.
+reused elsewhere individually. You've decoupled the two tasks.
 
 **Remember:** Refactoring is about cleaning up your code **without** changing
-functionality. After refactoring, your application should do exactly what it did
-before, but the code should be more efficient and easier to read.
+functionality. After refactoring, your application should do what it did before,
+but the code should be more efficient and easier to read.
 
 [Don't Repeat Yourself]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
@@ -73,7 +73,7 @@ projects. Portfolio projects are often at the [MVP stage][]. They are functional
 but there is so much more that can be done to make them better.
 
 Think about what features could be added to your CLI project. In particular, what
-can be added to make the project more interesting to potential employers? Some
+can be added to make the project more attractive to potential employers? Some
 things to consider:
 
 - Are there any 'dead-ends' in your project? Maybe you started to add a feature,
@@ -99,12 +99,11 @@ to navigate the project. This helps prevent potential users from misusing or
 misunderstanding the project. It also shows that you've thought a bit about the
 user experience.
 
-In addition, we also recommend writing some documentation for the project and
-storing it in a `README.md` file. This documentation should include instructions
-for setting up the project and what dependencies, if any, the project relies on.
-It can also include context that will help frame your project. Maybe you built
-it with the intention of solving a specific problem. Include this in the
-`README.md`.
+We also recommend writing some documentation for the project and storing it in a
+`README.md` file. This documentation should include instructions for setting up
+the project and what dependencies, if any, the project relies on. It can also
+include context that will help frame your project. Maybe you built it intending
+to solve a specific problem. Include this in the `README.md`.
 
 ## Deploy as a Ruby Gem
 
