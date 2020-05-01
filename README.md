@@ -1,5 +1,7 @@
 # Upgrade your Ruby CLI Project
 
+## Introduction
+
 It has probably been a little while since you looked at your first portfolio
 project, the Ruby CLI app. Now is an excellent time to revisit it and read the
 code you've written. Since it was early on in your journey with Flatiron, it is
